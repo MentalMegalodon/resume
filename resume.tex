@@ -9,7 +9,7 @@
 % Original author:
 % Howard Wilson (https://github.com/watsonbox/cv_template_2004) with
 % extensive modifications by Vel (vel@latextemplates.com)
-% personal modifications by Max
+% extensive and personal modifications by Max
 %
 % License:
 % CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
@@ -32,22 +32,21 @@
 %	NAME AND CONTACT INFORMATION
 %----------------------------------------------------------------------------------------
 
-\title{Max Mickey -- Résumé} % Print the main header
+\title{Max Mickey -- Résumé} 
 
 %------------------------------------------------
 
 \parbox{0.5\textwidth}{ % First block
-\begin{tabbing} % Enables tabbing
-\hspace{2cm} \= \hspace{3cm} \= \kill % Spacing within the block
-\textbf {Email} \> \href{mailto:max.mickey1991@gmail.com}{max.mickey1991@gmail.com} \\ % Email address
-\textbf {Phone} \> (985) 520 2317 \\ % Home phone
-%{\bf Date of Birth} \> 22$^{nd}$ August 1991 \\ % Date of birth 
-%{\bf Nationality} \> American % Nationality
+\begin{tabbing} 
+\hspace{2cm} \= \hspace{3cm} \= \kill 
+\textbf {Github} \> \href{https://github.com/traplol}{https://github.com/traplol} \\ 
+\textbf {Email} \> \href{mailto:max.mickey1991@gmail.com}{max.mickey1991@gmail.com} \\ 
+\textbf {Phone} \> (985) 520 2317 \\ 
 \end{tabbing}}
-\hfill % Horizontal space between the two blocks
+\hfill 
 \parbox{0.5\textwidth}{ % Second block
-\begin{tabbing} % Enables tabbing
-\hspace{2cm} \= \hspace{3cm} \= \kill % Spacing within the block
+\begin{tabbing} 
+\hspace{2cm} \= \hspace{3cm} \= \kill 
 \textbf {Address} \> 43526 Little Vegas Dr\\ % Address line 1
 \> Hammond, LA 70403 \\ % Address line 2
 \end{tabbing}}
@@ -55,14 +54,14 @@
 %----------------------------------------------------------------------------------------
 %	PERSONAL PROFILE
 %----------------------------------------------------------------------------------------
-
-\section{Personal Projects}
-\vspace{-3mm}
-
-Most of my personal projects can be found on github: \\
-\href{https://github.com/traplol}{https://github.com/traplol}
-
-\vspace{-4mm}
+\vspace{-10mm}
+%\section{Personal Projects}
+%\vspace{-3mm}
+%
+%Most of my personal projects can be found on github: \\
+%\href{https://github.com/traplol}{https://github.com/traplol}
+%
+%\vspace{-4mm}
 \section{Career Objective}
 \vspace{-3mm}
 
@@ -122,14 +121,14 @@ To utilize my skills as a programmer designing and developing software
 \vspace{-6mm}
 
 \parbox{0.5\textwidth}{ % First block
-\begin{tabbing} % Enables tabbing
-\hspace{2cm} \= \hspace{3cm} \= \kill % Spacing within the block
+\begin{tabbing} 
+\hspace{2cm} \= \hspace{3cm} \= \kill 
 \textbf{CGB Enterprises, Inc.}
 \end{tabbing}}
-\hfill % Horizontal space between the two blocks
+\hfill 
 \parbox{0.5\textwidth}{ % Second block
-\begin{tabbing} % Enables tabbing
-\hspace{5cm} \= \kill % Spacing within the block
+\begin{tabbing} 
+\hspace{5cm} \= \kill 
 (May 2014-August 2014)
 \end{tabbing}}
 \vspace{-3mm}
@@ -152,11 +151,26 @@ To utilize my skills as a programmer designing and developing software
 \vspace{-3mm}
 
 \interestsgroup{
-  \interest{Programming language design}
+\interest{Programming language design}
 \hspace{9mm}  Implementing interpreters and compilers, esoteric languages \\
 \interest{Virtual machines}
 \hspace{9mm}  Implementing byte-code interpreters \\
 }
 
+%----------------------------------------------------------------------------------------
+%	PROJECTS
+%----------------------------------------------------------------------------------------
+\section{Cool Projects}
+\vspace{-3mm}
+
+\begin{description}
+\item[demiurge-lang]
+{\footnotesize \href{https://github.com/traplol/demiurge-lang}{https://github.com/traplol/demiurge-lang}} \\
+Used LLVM to implement a simple JIT compiled imperative programming language similar to C with type inference including types such as strings, variable sized integers, floating point numbers, and arrays
+
+\item[simple-vm]
+{\footnotesize \href{https://github.com/traplol/simple-vm}{https://github.com/traplol/simple-vm}} \\
+Designed and implemented an assembler and a byte-code interpreter for a simple assembly-like language
+\end{description}
 
 \end{document}
