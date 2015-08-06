@@ -2,6 +2,8 @@
 *.out
 *.aux
 
+bin/
+
 *~
 \#*\#
 /.emacs.desktop
