@@ -3,7 +3,7 @@ OUT_DIR=bin
 PDF_DIR=pdf
 FLAGS=-output-directory=$(OUT_DIR)
 
-all: references 
+all: resume references
 
 references: $(OUT_DIR) $(PDF_DIR)
 	$(COMPILER) $(FLAGS) references.tex 
